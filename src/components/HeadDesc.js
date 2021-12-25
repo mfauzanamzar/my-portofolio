@@ -6,10 +6,7 @@ const HeadDesc = () => {
   return (
     <div className="headdesc">
       <p className="headdesc-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-        placeat, porro magni omnis laborum voluptas totam repellendus repellat
-        vel voluptatum at explicabo inventore autem ea vero, eveniet enim eaque
-        doloribus.
+        Seorang mahasiswa semester 7 Universitas Hasnuddin, dengan jurusan Teknik Informatika. tertarik untuk menjadi Fullstack Web Developer. Sudah menguasai ReactJS dengan baik dan memahami Express dan MongoDB.
       </p>
       <div className="headdesc-button">
         <a href="mailto: mfauzanamzar@gmail.com" className="btn-email btn">

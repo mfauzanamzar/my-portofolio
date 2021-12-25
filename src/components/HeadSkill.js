@@ -25,8 +25,9 @@ const HeadSkill = () => {
             name : 'NodeJS'
           },
         ];
-        
+
     return (
+        <div>
         <div className="headskill">
             <p className="headskill-title">My Skills</p>
             <div className="headskill-name">
@@ -35,6 +36,9 @@ const HeadSkill = () => {
                 ))}
             </div>
         </div>
+        <div className="border-line line-profile"></div>
+        </div>
+        
     )
 }
 

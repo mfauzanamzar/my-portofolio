@@ -20,13 +20,11 @@
 }
 
 .text__name{
-    font-size: 30px;
     color: #2A9DF4;
     height: 28px;
 }
 
 .text__role{
-    font-size: 38px;
     color: #fff;
 }
 
@@ -49,7 +47,6 @@
 /* Description Profile */
 
 .icon{
-    font-size: 24px;
     display: flex;
 }
 
@@ -108,7 +105,6 @@
 }
 
 .headskill-name{
-    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 

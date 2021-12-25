@@ -1,6 +1,63 @@
+@media screen and (max-width: 380px) {
+    .btn{
+        font-size: 12px;
+    }
+
+    .icon{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 381px) {
+    .icon{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .headprofile{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sosmed__list{
+        justify-content: center;
+        padding: 0;
+    }
+
+    .test-image{
+        display: none;
+    }
+    
+}
+
 @media screen and (max-width: 650px) {
     .text__name {
+        font-size: 20px;
+    }
+
+    .text__role{
         font-size: 24px;
+    }   
+
+    .headskill-name{
+        display: grid;
+    }
+}
+
+@media screen and (min-width: 651px) {
+    .text__name {
+        font-size: 30px;
+    }
+
+    .text__role{
+        font-size: 38px;
+    }
+    
+    
+    .headskill-name{
+        display: flex;
+        gap: 30px;
     }
 }
 
@@ -8,5 +65,15 @@
 @media screen and (max-width: 1090px) {
     .container{
         flex-direction: column;
+    }
+
+    .App-right{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1091px) {
+    .headskill-name{
+        display: grid;
     }
 }
