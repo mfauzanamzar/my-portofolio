@@ -1,0 +1,124 @@
+.headprofile{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.headprofile__image img{
+    width:170px;
+}
+
+.headprofile__text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.headprofile__text p {
+    margin: 0;
+}
+
+.text__name{
+    font-size: 30px;
+    color: #2A9DF4;
+    height: 28px;
+}
+
+.text__role{
+    font-size: 38px;
+    color: #fff;
+}
+
+.sosmed__list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.sosmed__item a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.sosmed__item a svg:hover{
+    -webkit-transform: scale(1.2);
+    color: #2A9DF4;
+}
+
+/* Description Profile */
+
+.icon{
+    font-size: 24px;
+    display: flex;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: 300;
+}
+
+.line-profile{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.headdesc-text{
+    color: #ADBAC7;  
+    font-weight: 300;
+}
+
+.headdesc-button{
+    display: flex;
+    gap: 30px;
+}
+
+.btn-email{
+    background-color: #2A9DF4;
+    color: #fff;    
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-cv{
+    background: none;    
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.border-line{
+   width: 100%;
+   background-color: #373E47;
+   height: 1px;
+}
+
+
+/* Skills Profile */
+
+.headskill-title{
+    font-size: 30px;
+    color: #2A9DF4;
+    margin: 0;
+}
+
+.headskill-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headskill-name p{
+    margin: 6px;
+    color: #fff;
+    display: flex;
+}
+
+.headskill-name span{
+    font-size: 24px;
+    margin-right: 10px;
+}
