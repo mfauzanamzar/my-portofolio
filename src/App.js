@@ -1,7 +1,6 @@
 import "./App.css";
 import "./responsive.css"
 import Content from "./components/Content";
-import Navbar from "./components/Navbar";
 import Profile from "./pages/Profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blogs from "./components/Blogs";

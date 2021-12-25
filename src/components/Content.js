@@ -11,7 +11,7 @@ const Content = () => {
       <Navbar active={status} />
       <div className="content">
         <div className="content-item">
-          <img className="test-image" src={AyoJogja} />
+          <img className="test-image" src={AyoJogja} alt="AyoJogja"/>
           <div className="item__text">
             <p className="item-text__name">
               <a href="https://ayojogja.netlify.app" target="_blank">AyoJogja</a>
@@ -32,7 +32,7 @@ const Content = () => {
         </div>
 
         <div className="content-item">
-          <img className="test-image" src={Sicov} />
+          <img className="test-image" src={Sicov} alt="Sicov"/>
           <div className="item__text">
             <p className="item-text__name">
               <a href="https://indonesia-covid-19.netlify.app/" target="_blank">
