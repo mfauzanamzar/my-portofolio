@@ -16,7 +16,7 @@ const HeadDesc = () => {
           Email Me
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=1uUQF1ab9FfoS6LGzOOykXLdeN5jP17qj"
+          href="https://drive.google.com/uc?export=download&id=1rY5QQSEKoD4LZfC16z_ognElaKCaVnLG"
           className="btn-cv btn"
         >
           <span className="icon">
