@@ -30,7 +30,7 @@ const HeadProfile = () => {
       </div>
       <div className="headprofile__text">
         <p className="text__name">Hi, I'm Muh. Fauzan Amzar</p>
-        <p className="text__role">Fullstack Web Developer</p>
+        <p className="text__role">Front-End Web Developer React JS</p>
         <div className="text__sosmed">
           <ul className="sosmed__list">
             {icons.map(ic => (
