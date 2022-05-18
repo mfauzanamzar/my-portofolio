@@ -6,7 +6,7 @@ const HeadDesc = () => {
   return (
     <div className="headdesc">
       <p className="headdesc-text">
-        Seorang mahasiswa semester 7 Universitas Hasnuddin, dengan jurusan Teknik Informatika. tertarik untuk menjadi Fullstack Web Developer. Sudah menguasai ReactJS dengan baik dan memahami Express dan MongoDB.
+        Seorang mahasiswa semester 8 Universitas Hasnuddin, dengan jurusan Teknik Informatika. Memiliki ketertarikan untuk menjadi Front-End Developer React JS.
       </p>
       <div className="headdesc-button">
         <a href="mailto: mfauzanamzar@gmail.com" className="btn-email btn">
