@@ -3,6 +3,7 @@ import "./Content.css";
 import Navbar from "./Navbar";
 import AyoJogja from "../images/AyoJogja.png";
 import Sicov from "../images/Sicov.png";
+import HDRO from "../images/hdro.png";
 
 const Content = () => {
   const status = "active-porto";
@@ -52,7 +53,7 @@ const Content = () => {
           <div className="border-line line-content"></div>
         </div>
         <div className="content-item">
-          <img className="test-image" src={AyoJogja} alt="AyoJogja"/>
+          <img className="test-image" src={HDRO} alt="AyoJogja"/>
           <div className="item__text">
             <p className="item-text__name">
               <a href="https://hdro2022.netlify.app/" target="_blank">Landing Page HDRO</a>
