@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact, FaBootstrap } from 'react-icons/fa';
+import {SiNextdotjs, SiTailwindcss} from 'react-icons/si'
 
 const HeadSkill = () => {
 
@@ -23,6 +24,18 @@ const HeadSkill = () => {
           {
             icon: <FaNodeJs />,
             name : 'NodeJS'
+          },
+          {
+            icon: <SiNextdotjs />,
+            name : 'NextJS'
+          },
+          {
+            icon: <FaBootstrap />,
+            name : 'Bootsrap'
+          },
+          {
+            icon: <SiTailwindcss />,
+            name : 'Tailwind CSS'
           },
         ];
 
